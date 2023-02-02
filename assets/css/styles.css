@@ -1,0 +1,152 @@
+* {
+    --main-color: #38236e;
+    --accent-color: #c4c1c9;
+}
+/* main styles */
+header {
+    padding: 20px;
+  } 
+h1, h5 {
+    text-align: center !important;
+    margin-left: 0px !important;
+}
+h5 {
+    margin-bottom: 0px;
+}
+button {
+    background: var(--main-color) !important;
+    color: #e6e4e3 !important;
+}
+section {
+    padding: 20px 5px !important;
+}
+.subtitle {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+} 
+.newCity {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+}
+.card-header {
+    padding: 5px;
+    text-align: center;
+}
+  
+/* city search section styles */
+.searchedCitiesSection {
+    width: 30% !important;
+}
+  
+.searchedCitiesSection .card-body {
+    padding-left: 10px !important;
+    padding-right: 5px !important;
+    font-size: 0.7rem;
+}
+  
+#cityInput {
+    font-size: 0.7rem;
+}
+.listItemSearchedCity {
+    width: 100%;
+    padding: 0.75rem;
+    text-transform: capitalize;
+} 
+input {
+    width: 100% !important;
+    text-transform: capitalize;
+}
+
+.form-inline .form-group {
+    margin-left: 0px !important;
+    width: 50%;
+}
+.list-group {
+    width: 50%;
+}
+  
+/* current city section styles */
+.currentWeather .col {
+    padding-left: 10px !important;
+    padding-right: 5px !important;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.currentData .city {
+    text-transform: capitalize;
+}
+.currentData .icon {
+    max-width: 400px;
+    max-height: 150px;
+}
+.weather {
+    text-transform: capitalize;
+}
+#windy {
+    width: 100%;
+    height: 305px;
+    border-radius: 7px;
+}
+/* 5-day forecast section styles */
+.forecast {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+  
+.forecast .col {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    font-size: 0.5rem;
+}
+.forecast .col1 {
+    padding: 0px !important;
+}
+.forecast .card-body {
+    padding: 10px;
+    text-align: center;
+}
+.forecast .temp,
+.forecast .humid,
+.forecast .wind {
+    display: none !important;
+}
+  /* --------------- Media Queries --------------- */
+  
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .forecast .card-body {
+      padding: 15px;
+      text-align: left;
+    }
+  
+    .forecast .temp,
+    .forecast .humid,
+    .forecast .wind{
+      display: inline-block !important;
+    }
+    .currentWeather .col {
+      text-align: left;
+    }
+}
+  
+/* for devices >= 768px */
+@media (min-width: 768px) {
+  }
+/* for devices >=992px */
+@media (min-width: 992px) {
+    .forecast .card-body .col {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      font-size: 0.7rem;
+    } 
+    .form-inline .form-group {
+      margin-left: 0px !important;
+      width: 80%;
+    }
+    .list-group {
+      width: 80%;
+    }
+}
+/* for devices >=1200px */
+@media (min-width: 1200px) {
+}
