@@ -1,7 +1,7 @@
 $("document").ready(function () {
     /* ************************* Global Variables ************************* */
     var city;
-    const apiKey = "aaf6c28ed5b2ad844bd61b20d43ffe8c";
+    const apiKey = "af52c19731d2e5e20addf72f208445a9";
     let queryURL;
     let ajaxFlag = 0;
     let citiesSearchedObject = {};
